@@ -10,3 +10,4 @@ switch(state)
         obj = unit_parent;
         scr_follow(obj);
 }
+if (instance_exists(target)) image_xscale = sign(x - target.x);

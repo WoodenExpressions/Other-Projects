@@ -5,7 +5,7 @@ if (instance_exists(target)) {
     if (distance_to_object(target) >= dist) {
         p = path_add();
         mp_potential_path(p,target.x, target.y,4,4,0);
-        path_start(p, 3, 0 ,0);
+        path_start(p, 1.5, 0 ,0);
     } else {
         path_end();
     }

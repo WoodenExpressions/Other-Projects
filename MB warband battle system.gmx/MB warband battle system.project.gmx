@@ -31,6 +31,8 @@
       </objects>
     </objects>
     <object>objects\debug_info</object>
+    <object>objects\obj_player</object>
+    <object>objects\collision</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
