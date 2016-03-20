@@ -2,7 +2,7 @@
 if (team = TEAM.red) target = instance_nearest(x,y,blue_parent);
 if (team = TEAM.blue) target = instance_nearest(x,y,red_parent);
 if (instance_exists(target)) {
-    if (distance_to_object(target) != dist) {
+    if (distance_to_object(target) >= dist) {
         p = path_add();
         mp_potential_path(p,target.x, target.y,4,4,0);
         path_start(p, 3, 0 ,0);
