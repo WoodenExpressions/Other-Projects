@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_unit</sprite>
     <sprite>sprites\wall_basic</sprite>
+    <sprite>sprites\unit_spirte_sheet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
