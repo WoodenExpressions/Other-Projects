@@ -51,6 +51,7 @@ dist = 0
             <kind>1</kind>
             <string>state_update();
 depth = y*-1;
+if (keyboard_check(ord("R"))) game_restart();
 </string>
           </argument>
         </arguments>
